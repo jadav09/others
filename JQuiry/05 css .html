@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jaydeep.js"></script>
+    <style>
+        .xyz 
+        {
+            height: 100px;
+            width: 100px;
+            background: cornflowerblue;
+            font-size: 30px;
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="xyz">
+        HEllo
+    </div>
+
+    <button>CSS</button>
+
+    <script>
+
+// method
+
+        // $(selector).css("property","value")
+
+        // $('div').css("color","red")
+        $('div').css("height","100")  // any ways to use 100/100px
+        // $('div').css("width","200px")
+        // $('div').css("background-color","lightblue")
+
+        $('div').addClass('xyz')  // add ways to class name
+
+        // $('div').removeClass('xyz')  // remove the class
+
+        // $('div').addClass('xyz')
+
+
+        // $('div').removeClass('xyz')
+
+        // $('div').toggleClass('xyz')
+
+        $('div').css({color:"red",background:"lightcoral"}) // add a multipal property.
+
+        $('button').click(function(){
+            $('div').css({"margin-left":200})
+
+            $('div').animate({"margin-left":500}) // The animate() method performs a custom animation of a set of CSS properties.
+        })
+
+    </script>
+    
+</body>
+</html>

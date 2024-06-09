@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.js"></script>
+    <style>
+        span 
+        {
+            background: red !important;
+        }
+
+        /*  does not use !important in bootstrap.becouse bootstrap all property is important.
+
+        /* .x 
+        {
+            background: lightblue;
+        } */
+
+        .y 
+        {
+            background: linear-gradient(red,blue);
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="text-black-50">Hello</h1>
+    <h1 class="text-white-50 bg-danger">Hello</h1>
+    <h1 class="text-primary-50">Hello</h1>
+    <!-- not allowed for primory color -->
+
+
+      <!-- syntax :- text-color-opacity(allowed number only for 25-50-75-100 in opacity) -->
+      <!-- opacity allowed only "black & white" color (not use others color with opacity)-->
+
+  
+
+ <div class="mt-5 ms-3 mb-5">
+
+    <button type="button" class="me-3 btn btn-primary position-relative">
+        Inbox
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          99+
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
+
+
+
+      <button type="button" class="me-3 btn btn-primary position-relative">
+        Profile
+        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+          <span class="visually-hidden">New alerts</span>
+        </span>
+      </button>
+
+
+
+    <button type="button" class="btn btn-primary">
+        Notifications <span class="badge bg-secondary">4</span>
+      </button>
+
+ </div>
+
+<!-- font-property -->
+
+<p class="fw-bold">Bold text.</p>
+<p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
+<p class="fw-normal">Normal weight text.</p>
+<p class="fw-light">Light weight text.</p>
+<p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
+<p class="fst-italic text-end">Italic text.</p>
+<p class="fst-normal">Text with normal font style</p>
+
+   
+        <span class="text-white fw-bold bg-primary">Dharmesh</span>   
+        
+        <span class="fw-bold">Kya Baat he</span>KyaSoch Rahe ho...!
+    
+</body>
+</html>

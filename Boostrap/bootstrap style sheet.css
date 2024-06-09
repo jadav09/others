@@ -1,0 +1,111 @@
+
+.navbar-nav li
+{
+    /* padding-left: 50px; */
+    font-size: 20px;
+}
+
+.icon
+{
+    text-align: center;
+    
+}
+
+.bg i
+{
+color:#a8d741 ;
+}
+
+.icon i
+{
+    font-size: 20px;
+}
+
+
+.our-features,
+.desing,
+.how,
+.uni-t-disig,
+.jadav
+
+{
+    font-size: 20px;
+}
+
+.abt h1
+{
+text-align: right;
+}
+
+iframe
+{
+    height: 400px;
+}
+
+.action,
+.con
+
+{
+    font-size: 60px;
+}
+
+
+.t-shirt
+
+{
+    padding: 100px;
+}
+a
+{
+    text-decoration: none;
+}
+button,
+.t-shirt,
+.team,
+.action,
+.sms,
+.pro
+
+{
+    background-color: #a8d741;
+}
+
+
+
+
+.t-shirt p
+{
+    font-size: 30px;
+}
+
+.t-shirt h1
+{
+    font-size: 80px;
+}
+
+.hvr:hover
+{
+    box-shadow: 5px 5px 15px black;
+    transform: rotate(15deg);
+    background-color: white;
+    color: black;
+
+    
+}
+
+button
+{
+    transition: 0.3s;
+}
+
+.xyz
+{
+    transition: 0.3s;
+    padding: 50px 0px;
+}
+.xyz:hover
+
+{
+    box-shadow: 5px 5px 15px black;
+    transform: rotate(-5deg) scale(1.03);
+}

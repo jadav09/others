@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jaydeep.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+    <h1></h1>
+    <h2>hijhgj</h2>
+    <input id="i1">
+    <input id="i2" type="text" value="hiInput">
+    <a href="xyz.html">LINK</a>
+
+    <script>    
+
+$('#i1').attr("value","pata nai");   
+$('#i1').val("ravi")                // priority high hai.
+$('#i1').attr("value","pata nai ravi");  
+
+    // $('a').attr("href","mayur.html")
+
+    
+    //   $('#i1').val("No Equal to Sign...!")   // overight property
+
+    $('#i2').val();//hiInput 
+    
+    $('#i1').val(  $('#i2').val())   // i1.value = i2.value
+
+    $('#i1').val($('a').attr('href'))  // i1.value = a.attribute href
+
+      
+
+    //     $('h1').html("<u>Dharmesh...!</u>")
+
+    //     $('h1').text("<u>Dharmesh...!</u>")
+
+    //     $('h2').html();//hi
+
+    //     h= $('h2').html()
+       
+
+        // alert($('h2').html())
+
+        d =  $('h1');  // store value in variable
+        d.html($('h2').html());  // h1.innerHTML = h2.innerHTML
+
+        d.html(h);
+
+
+    </script>
+    
+</body>
+</html>
